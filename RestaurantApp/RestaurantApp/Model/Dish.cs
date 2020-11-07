@@ -21,7 +21,7 @@ namespace RestaurantApp.Model
         [Column("price")]
         public double Price { get; set; }
         [Column("imageUrl")]
-        public Uri ImageUrl { get; set; }
+        public string ImageUrl { get; set; }
         [Required]
         [Column("availibility")]
         public bool Availibility { get; set; }

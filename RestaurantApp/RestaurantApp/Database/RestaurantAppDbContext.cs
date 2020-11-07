@@ -15,8 +15,62 @@ namespace RestaurantApp.Database
 
         }
 
-        DbSet<Dish> Dishes { get; set; }
+        public DbSet<Dish> Dishes { get; set; }
 
-        DbSet<Customer> Customers { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Dish>().HasData(
+                new Dish
+                {
+                    Id = 1,
+                    Name = "Capriciosa",
+                    Price = 39.50,
+                    ImageUrl = "",
+                    Availibility = true,
+                    Description = "sos, ser, szynka, pieczarki"
+                });
+            modelBuilder.Entity<Dish>().HasData(
+                new Dish
+                {
+                    Id = 2,
+                    Name = "Pepperoni",
+                    Price = 36.50,
+                    ImageUrl = "",
+                    Availibility = true,
+                    Description = "sos, ser, salami pepperoni"
+                });
+            modelBuilder.Entity<Dish>().HasData(
+                new Dish
+                {
+                    Id = 3,
+                    Name = "Funghi",
+                    Price = 36.50,
+                    ImageUrl = "",
+                    Availibility = true,
+                    Description = "sos, ser, pieczarki"
+                });
+            modelBuilder.Entity<Dish>().HasData(
+                new Dish
+                {
+                    Id = 4,
+                    Name = "Carbonara",
+                    Price = 45.50,
+                    ImageUrl = "",
+                    Availibility = true,
+                    Description = "sos śmietanowy, ser, cebula, boczek, szpinak, pieczarki"
+                });
+            modelBuilder.Entity<Dish>().HasData(
+                new Dish
+                {
+                    Id = 5,
+                    Name = "Broccoli",
+                    Price = 47.50,
+                    ImageUrl = "",
+                    Availibility = true,
+                    Description = "sos pomidorowy z ziołami, ser, cebula, borokuły, kukurydza, pieczarki, kurczaczek"
+                });
+        }
     }
 }
