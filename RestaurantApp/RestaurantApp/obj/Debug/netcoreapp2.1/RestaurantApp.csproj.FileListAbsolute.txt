@@ -1,0 +1,14 @@
+D:\Studia\Programowanie zaawansowane\Restaurant\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\RestaurantApp.deps.json
+D:\Studia\Programowanie zaawansowane\Restaurant\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\RestaurantApp.runtimeconfig.json
+D:\Studia\Programowanie zaawansowane\Restaurant\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\RestaurantApp.runtimeconfig.dev.json
+D:\Studia\Programowanie zaawansowane\Restaurant\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\RestaurantApp.dll
+D:\Studia\Programowanie zaawansowane\Restaurant\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\RestaurantApp.pdb
+D:\Studia\Programowanie zaawansowane\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.csprojAssemblyReference.cache
+D:\Studia\Programowanie zaawansowane\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.csproj.CoreCompileInputs.cache
+D:\Studia\Programowanie zaawansowane\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.RazorAssemblyInfo.cache
+D:\Studia\Programowanie zaawansowane\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.RazorAssemblyInfo.cs
+D:\Studia\Programowanie zaawansowane\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.AssemblyInfoInputs.cache
+D:\Studia\Programowanie zaawansowane\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.AssemblyInfo.cs
+D:\Studia\Programowanie zaawansowane\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.RazorTargetAssemblyInfo.cache
+D:\Studia\Programowanie zaawansowane\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.dll
+D:\Studia\Programowanie zaawansowane\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.pdb
