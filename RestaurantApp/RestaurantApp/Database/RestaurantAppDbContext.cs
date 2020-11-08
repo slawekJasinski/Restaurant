@@ -71,6 +71,16 @@ namespace RestaurantApp.Database
                     Availibility = true,
                     Description = "sos pomidorowy z ziołami, ser, cebula, borokuły, kukurydza, pieczarki, kurczaczek"
                 });
+            modelBuilder.Entity<Dish>().HasData(
+                new Dish
+                {
+                    Id = 6,
+                    Name = "Margarita",
+                    Price = 27.50,
+                    ImageUrl = "",
+                    Availibility = false,
+                    Description = "sos pomidorowy z ziołami, ser"
+                });
         }
     }
 }

@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RestaurantApp.Database;
 
 namespace RestaurantApp.Migrations
 {
     [DbContext(typeof(RestaurantAppDbContext))]
-    partial class RestaurantAppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20201108094049_CustomerName")]
+    partial class CustomerName
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -71,8 +73,7 @@ namespace RestaurantApp.Migrations
                         new { Id = 2, Availibility = true, Description = "sos, ser, salami pepperoni", ImageUrl = "", Name = "Pepperoni", Price = 36.5 },
                         new { Id = 3, Availibility = true, Description = "sos, ser, pieczarki", ImageUrl = "", Name = "Funghi", Price = 36.5 },
                         new { Id = 4, Availibility = true, Description = "sos śmietanowy, ser, cebula, boczek, szpinak, pieczarki", ImageUrl = "", Name = "Carbonara", Price = 45.5 },
-                        new { Id = 5, Availibility = true, Description = "sos pomidorowy z ziołami, ser, cebula, borokuły, kukurydza, pieczarki, kurczaczek", ImageUrl = "", Name = "Broccoli", Price = 47.5 },
-                        new { Id = 6, Availibility = false, Description = "sos pomidorowy z ziołami, ser", ImageUrl = "", Name = "Margarita", Price = 27.5 }
+                        new { Id = 5, Availibility = true, Description = "sos pomidorowy z ziołami, ser, cebula, borokuły, kukurydza, pieczarki, kurczaczek", ImageUrl = "", Name = "Broccoli", Price = 47.5 }
                     );
                 });
 
