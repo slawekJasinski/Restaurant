@@ -13,8 +13,6 @@ namespace RestaurantApp.Model
         [Key]
         [Column("id")]
         public int Id { get; set; }
-
-        public List<Dish> Dishes { get; set; }
         [Column("name")]
         public string name { get; set; }
     }

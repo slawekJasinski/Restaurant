@@ -28,5 +28,8 @@ namespace RestaurantApp.Model
         [MaxLength(255)]
         [Column("description")]
         public string Description { get; set; }
+        [Required]
+        [Column("Amount")]
+        public double Amount { get; set; }
     }
 }
