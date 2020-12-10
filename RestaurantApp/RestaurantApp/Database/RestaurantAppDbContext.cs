@@ -84,9 +84,7 @@ namespace RestaurantApp.Database
                     Name = "Capriciosa",
                     Price = 39.50,
                     ImageUrl = "",
-                    Availibility = true,
-                    Description = "sos, ser, szynka, pieczarki",
-                    Amount = 100
+                    Description = "sos, ser, szynka, pieczarki"
                 });
             modelBuilder.Entity<Dish>().HasData(
                 new Dish
@@ -95,9 +93,7 @@ namespace RestaurantApp.Database
                     Name = "Pepperoni",
                     Price = 36.50,
                     ImageUrl = "",
-                    Availibility = true,
-                    Description = "sos, ser, salami pepperoni",
-                    Amount = 100
+                    Description = "sos, ser, salami pepperoni"
                 });
             modelBuilder.Entity<Dish>().HasData(
                 new Dish
@@ -106,9 +102,7 @@ namespace RestaurantApp.Database
                     Name = "Funghi",
                     Price = 36.50,
                     ImageUrl = "",
-                    Availibility = true,
-                    Description = "sos, ser, pieczarki",
-                    Amount = 100
+                    Description = "sos, ser, pieczarki"
                 });
             modelBuilder.Entity<Dish>().HasData(
                 new Dish
@@ -117,9 +111,7 @@ namespace RestaurantApp.Database
                     Name = "Carbonara",
                     Price = 45.50,
                     ImageUrl = "",
-                    Availibility = true,
-                    Description = "sos śmietanowy, ser, cebula, boczek, szpinak, pieczarki",
-                    Amount = 100
+                    Description = "sos śmietanowy, ser, cebula, boczek, szpinak, pieczarki"
                 });
             modelBuilder.Entity<Dish>().HasData(
                 new Dish
@@ -128,9 +120,7 @@ namespace RestaurantApp.Database
                     Name = "Broccoli",
                     Price = 47.50,
                     ImageUrl = "",
-                    Availibility = true,
-                    Description = "sos pomidorowy z ziołami, ser, cebula, borokuły, kukurydza, pieczarki, kurczaczek",
-                    Amount = 100
+                    Description = "sos pomidorowy z ziołami, ser, cebula, borokuły, kukurydza, pieczarki, kurczaczek"
                 });
             modelBuilder.Entity<Dish>().HasData(
                 new Dish
@@ -139,9 +129,7 @@ namespace RestaurantApp.Database
                     Name = "Margarita",
                     Price = 27.50,
                     ImageUrl = "",
-                    Availibility = false,
-                    Description = "sos pomidorowy z ziołami, ser",
-                    Amount = 100
+                    Description = "sos pomidorowy z ziołami, ser"
                 });
         }
     }

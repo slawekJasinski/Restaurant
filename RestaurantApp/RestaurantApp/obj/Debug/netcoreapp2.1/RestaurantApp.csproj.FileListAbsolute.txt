@@ -12,3 +12,21 @@ D:\Studia\Programowanie zaawansowane\Restaurant\RestaurantApp\RestaurantApp\obj\
 D:\Studia\Programowanie zaawansowane\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.RazorTargetAssemblyInfo.cache
 D:\Studia\Programowanie zaawansowane\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.dll
 D:\Studia\Programowanie zaawansowane\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.pdb
+C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\appsettings.json
+C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\RestaurantApp.deps.json
+C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\RestaurantApp.runtimeconfig.json
+C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\RestaurantApp.runtimeconfig.dev.json
+C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\RestaurantApp.dll
+C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\RestaurantApp.pdb
+C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.csprojAssemblyReference.cache
+C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.AssemblyInfoInputs.cache
+C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.AssemblyInfo.cs
+C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.RazorAssemblyInfo.cache
+C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.RazorAssemblyInfo.cs
+C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.RazorTargetAssemblyInfo.cache
+C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.dll
+C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.pdb
+C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.genruntimeconfig.cache

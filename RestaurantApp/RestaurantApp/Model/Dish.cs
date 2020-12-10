@@ -22,14 +22,8 @@ namespace RestaurantApp.Model
         public double Price { get; set; }
         [Column("imageUrl")]
         public string ImageUrl { get; set; }
-        [Required]
-        [Column("availibility")]
-        public bool Availibility { get; set; }
         [MaxLength(255)]
         [Column("description")]
         public string Description { get; set; }
-        [Required]
-        [Column("Amount")]
-        public double Amount { get; set; }
     }
 }
