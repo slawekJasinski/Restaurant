@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 
 namespace RestaurantApp.Model
 {
+    [Table("Statuses")]
     public class Status
     {
         [Key]
-        [Column("id")]
-        public int Id { get; set; }
+        [Column("StatusId")]
+        public int StatusId { get; set; }
         [Required]
-        [MinLength(10)]
-        [Column("name")]
-        public string Name { get; set; }
+        [Column("StatusName")]
+        public string StatusName { get; set; }
     }
 }

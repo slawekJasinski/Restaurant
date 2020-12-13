@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "93nPyGZlvYtoc4nbQD+QXUSjsK/h1tDXyN96bZ/devXrAhYd2SKEDZtlwSi1A9EhX8hZiOU8YJc5BNGpEc3eFw==",
+  "dgSpecHash": "HrfIOAj4sJEZ5gIfLHk1kJHa+GhD5z/KlkzWe+L2LorkHtqbiMYq8KwO9Mx201I061YZEIyEGe0iITgNdWQ6LQ==",
   "success": true,
   "projectFilePath": "C:\\xampp\\htdocs\\Restaurant\\RestaurantApp\\RestaurantApp\\RestaurantApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\k.cichocki\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
+    "C:\\Users\\k.cichocki\\.nuget\\packages\\microsoft.aspnet.cors\\5.2.7\\microsoft.aspnet.cors.5.2.7.nupkg.sha512",
+    "C:\\Users\\k.cichocki\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
+    "C:\\Users\\k.cichocki\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.7\\microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",
+    "C:\\Users\\k.cichocki\\.nuget\\packages\\microsoft.aspnet.webapi.cors\\5.2.7\\microsoft.aspnet.webapi.cors.5.2.7.nupkg.sha512",
     "C:\\Users\\k.cichocki\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",
     "C:\\Users\\k.cichocki\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.1.1\\microsoft.aspnetcore.antiforgery.2.1.1.nupkg.sha512",
     "C:\\Users\\k.cichocki\\.nuget\\packages\\microsoft.aspnetcore.app\\2.1.1\\microsoft.aspnetcore.app.2.1.1.nupkg.sha512",
@@ -310,5 +313,36 @@
     "C:\\Users\\k.cichocki\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\k.cichocki\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Pakiet „Microsoft.AspNet.Cors 5.2.7” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8” zamiast platformy docelowej projektu „.NETCoreApp,Version=v2.1”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "libraryId": "Microsoft.AspNet.Cors",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Pakiet „Microsoft.AspNet.WebApi.Core 5.2.7” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8” zamiast platformy docelowej projektu „.NETCoreApp,Version=v2.1”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "libraryId": "Microsoft.AspNet.WebApi.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Pakiet „Microsoft.AspNet.WebApi.Cors 5.2.7” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8” zamiast platformy docelowej projektu „.NETCoreApp,Version=v2.1”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "libraryId": "Microsoft.AspNet.WebApi.Cors",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
 }

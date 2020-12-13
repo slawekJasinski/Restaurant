@@ -58,7 +58,7 @@ namespace RestaurantApp.Controllers
                 return BadRequest(ModelState);
             }
 
-            if (id != dish.Id)
+            if (id != dish.DishId)
             {
                 return BadRequest();
             }
@@ -96,7 +96,7 @@ namespace RestaurantApp.Controllers
             _context.Dishes.Add(dish);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetDish", new { id = dish.Id }, dish);
+            return CreatedAtAction("GetDish", new { id = dish.DishId }, dish);
         }
 
         // DELETE: api/Dishes/5
@@ -122,7 +122,7 @@ namespace RestaurantApp.Controllers
 
         private bool DishExists(int id)
         {
-            return _context.Dishes.Any(e => e.Id == id);
+            return _context.Dishes.Any(e => e.DishId == id);
         }
     }
 }

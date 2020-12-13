@@ -7,7 +7,23 @@ using System.Threading.Tasks;
 
 namespace RestaurantApp.Model
 {
+    [Table("Products")]
     public class DishSize
     {
+        [Key]
+        [Column("ProductId")]
+        public int ProductId { get; set; }
+        [Required]
+        [Column("DishId")]
+        public int DishId { get; set; }
+        [MinLength(10)]
+        [Column("SizeId")]
+        public int SizeId { get; set; }
+        [Column("Price")]
+        public double Price { get; set; }
+        [Column("DateFrom")]
+        public string DateFrom { get; set; }
+        [Column("DateTo")]
+        public string DateTo { get; set; }
     }
 }

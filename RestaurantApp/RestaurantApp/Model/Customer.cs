@@ -11,9 +11,16 @@ namespace RestaurantApp.Model
     public class Customer
     {
         [Key]
-        [Column("id")]
-        public int Id { get; set; }
-        [Column("name")]
-        public string name { get; set; }
+        [Column("CustomerId")]
+        public int CustomerId { get; set; }
+        [Required]
+        [Column("CustomerName")]
+        public string CustomerName { get; set; }
+        [Column("DeliveryAddress")]
+        public string DeliveryAddress { get; set; }
+        [Column("EmailAdress")]
+        public string EmailAdress { get; set; }
+        [Column("PhoneNumber")]
+        public string PhoneNumber { get; set; }
     }
 }

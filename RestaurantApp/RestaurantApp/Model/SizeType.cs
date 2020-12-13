@@ -7,15 +7,17 @@ using System.Threading.Tasks;
 
 namespace RestaurantApp.Model
 {
-    [Table("TypesDishes")]
-    public class DishType
+    [Table("TypesSizes")]
+    public class SizeType
     {
         [Key]
-        [Column("TypeId")]
-        public int TypeId { get; set; }
+        [Column("SizeId")]
+        public int SizeId { get; set; }
         [Required]
         [MinLength(10)]
-        [Column("TypeName")]
-        public string TypeName { get; set; }
+        [Column("SizeName")]
+        public string SizeName { get; set; }
+        [Column("Unit")]
+        public string Unit { get; set; }
     }
 }

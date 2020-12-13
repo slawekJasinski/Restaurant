@@ -11,16 +11,18 @@ namespace RestaurantApp.Model
     public class Dish
     {
         [Key]
-        [Column("id")]
-        public int Id { get; set; }
+        [Column("DishId")]
+        public int DishId { get; set; }
         [Required]
+        [Column("TypeId")]
+        public int TypeId { get; set; }
         [MinLength(10)]
-        [Column("name")]
-        public string Name { get; set; }
-        [Column("imageUrl")]
+        [Column("DishName")]
+        public string DishName { get; set; }
+        [Column("ImageUrl")]
         public string ImageUrl { get; set; }
         [MaxLength(255)]
-        [Column("description")]
+        [Column("Description")]
         public string Description { get; set; }
     }
 }

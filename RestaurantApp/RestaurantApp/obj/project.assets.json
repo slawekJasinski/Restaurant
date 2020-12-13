@@ -13103,7 +13103,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Pakiet „Microsoft.AspNet.Cors 5.2.7” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1” zamiast platformy docelowej projektu „.NETCoreApp,Version=v2.1”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "message": "Pakiet „Microsoft.AspNet.Cors 5.2.7” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8” zamiast platformy docelowej projektu „.NETCoreApp,Version=v2.1”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
       "libraryId": "Microsoft.AspNet.Cors",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -13113,7 +13113,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Pakiet „Microsoft.AspNet.WebApi.Core 5.2.7” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1” zamiast platformy docelowej projektu „.NETCoreApp,Version=v2.1”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "message": "Pakiet „Microsoft.AspNet.WebApi.Core 5.2.7” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8” zamiast platformy docelowej projektu „.NETCoreApp,Version=v2.1”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
       "libraryId": "Microsoft.AspNet.WebApi.Core",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -13123,7 +13123,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Pakiet „Microsoft.AspNet.WebApi.Cors 5.2.7” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1” zamiast platformy docelowej projektu „.NETCoreApp,Version=v2.1”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
+      "message": "Pakiet „Microsoft.AspNet.WebApi.Cors 5.2.7” został przywrócony przy użyciu elementu „.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8” zamiast platformy docelowej projektu „.NETCoreApp,Version=v2.1”. Ten pakiet może nie być w pełni kompatybilny z Twoim projektem.",
       "libraryId": "Microsoft.AspNet.WebApi.Cors",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"

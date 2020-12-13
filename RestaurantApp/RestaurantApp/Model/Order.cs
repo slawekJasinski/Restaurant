@@ -4,16 +4,21 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
 namespace RestaurantApp.Model
 {
+    [Table("Orders")]
     public class Order
     {
         [Key]
-        [Column("id")]
-        public int Id { get; set; }
-        [Column("name")]
-        public string name { get; set; }
-        [Column("status")]
-        public Status status { get; set; }
+        [Column("OrderId")]
+        public int OrderId { get; set; }
+        [Required]
+        [Column("CustomerId")]
+        public int CustomerId { get; set; }
+        [Column("StatusId")]
+        public int StatusId { get; set; }
+        [Column("Notes")]
+        public string Notes { get; set; }
     }
 }
