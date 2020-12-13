@@ -57,13 +57,21 @@ namespace RestaurantApp
             });
             services.AddCors(options =>
             {
-                options.AddPolicy("AllowAllOrigins", builder => builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin().WithOrigins("localhost"));
+                options.AddPolicy(
+                    "AllowAllOrigins", 
+                    builder => builder
+                              .AllowAnyHeader()
+                              .AllowAnyMethod()
+                              .AllowAnyOrigin()
+                              );
             });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            app.UseCors("AllowAllOrigins");
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -83,7 +91,6 @@ namespace RestaurantApp
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
             });
-            app.UseCors("AllowAllOrigins");
         }
     }
 }

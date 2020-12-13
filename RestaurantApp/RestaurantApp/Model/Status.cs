@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace RestaurantApp.Model
 {
-    [Table("Dishes")]
-    public class Dish
+    public class Status
     {
         [Key]
         [Column("id")]
@@ -17,10 +16,5 @@ namespace RestaurantApp.Model
         [MinLength(10)]
         [Column("name")]
         public string Name { get; set; }
-        [Column("imageUrl")]
-        public string ImageUrl { get; set; }
-        [MaxLength(255)]
-        [Column("description")]
-        public string Description { get; set; }
     }
 }
