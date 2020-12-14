@@ -30,3 +30,17 @@ C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\R
 C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.dll
 C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.pdb
 C:\xampp\htdocs\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.genruntimeconfig.cache
+D:\Restaurant-main\Restaurant-main\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\RestaurantApp.deps.json
+D:\Restaurant-main\Restaurant-main\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\RestaurantApp.runtimeconfig.json
+D:\Restaurant-main\Restaurant-main\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\RestaurantApp.runtimeconfig.dev.json
+D:\Restaurant-main\Restaurant-main\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\RestaurantApp.dll
+D:\Restaurant-main\Restaurant-main\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\RestaurantApp.pdb
+D:\Restaurant-main\Restaurant-main\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.csprojAssemblyReference.cache
+D:\Restaurant-main\Restaurant-main\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.csproj.CoreCompileInputs.cache
+D:\Restaurant-main\Restaurant-main\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.RazorAssemblyInfo.cache
+D:\Restaurant-main\Restaurant-main\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.RazorAssemblyInfo.cs
+D:\Restaurant-main\Restaurant-main\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.AssemblyInfoInputs.cache
+D:\Restaurant-main\Restaurant-main\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.AssemblyInfo.cs
+D:\Restaurant-main\Restaurant-main\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.RazorTargetAssemblyInfo.cache
+D:\Restaurant-main\Restaurant-main\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.dll
+D:\Restaurant-main\Restaurant-main\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.pdb
