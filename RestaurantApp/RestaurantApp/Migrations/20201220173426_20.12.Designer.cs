@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RestaurantApp.Database;
 
 namespace RestaurantApp.Migrations
 {
     [DbContext(typeof(RestaurantAppDbContext))]
-    partial class RestaurantAppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20201220173426_20.12")]
+    partial class _2012
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -73,9 +75,7 @@ namespace RestaurantApp.Migrations
 
                     b.HasData(
                         new { DishId = 1, Description = "sos, ser, szynka, pieczarki", DishName = "Capriciosa", ImageUrl = "https://foodish-api.herokuapp.com/images/pizza/pizza70.jpg", TypeId = 1 },
-                        new { DishId = 2, Description = "sos, ser", DishName = "Margarita", ImageUrl = "https://foodish-api.herokuapp.com/images/pizza/pizza60.jpg", TypeId = 1 },
-                        new { DishId = 3, Description = "Jabłka, cynamon, syrop klonowy", DishName = "Naleśniki", ImageUrl = "https://foodish-api.herokuapp.com/images/dosa/dosa63.jpg", TypeId = 2 },
-                        new { DishId = 4, Description = "Beef, Lettuce, Tomato, Mayo", DishName = "Burger", ImageUrl = "https://foodish-api.herokuapp.com/images/burger/burger8.jpg", TypeId = 3 }
+                        new { DishId = 2, Description = "sos, ser", DishName = "Margarita", ImageUrl = "https://foodish-api.herokuapp.com/images/pizza/pizza60.jpg", TypeId = 1 }
                     );
                 });
 

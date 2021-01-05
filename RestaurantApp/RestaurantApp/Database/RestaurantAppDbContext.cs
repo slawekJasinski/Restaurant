@@ -55,7 +55,7 @@ namespace RestaurantApp.Database
                     DishId = 1,
                     TypeId = 1,
                     DishName = "Capriciosa",
-                    ImageUrl = "",
+                    ImageUrl = "https://foodish-api.herokuapp.com/images/pizza/pizza70.jpg",
                     Description = "sos, ser, szynka, pieczarki"
                 });
             modelBuilder.Entity<Dish>().HasData(
@@ -64,8 +64,26 @@ namespace RestaurantApp.Database
                     DishId = 2,
                     TypeId = 1,
                     DishName = "Margarita",
-                    ImageUrl = "",
+                    ImageUrl = "https://foodish-api.herokuapp.com/images/pizza/pizza60.jpg",
                     Description = "sos, ser"
+                });
+            modelBuilder.Entity<Dish>().HasData(
+                new Dish
+                {
+                    DishId = 3,
+                    TypeId = 2,
+                    DishName = "Naleśniki",
+                    ImageUrl = "https://foodish-api.herokuapp.com/images/dosa/dosa63.jpg",
+                    Description = "Jabłka, cynamon, syrop klonowy"
+                });
+            modelBuilder.Entity<Dish>().HasData(
+                new Dish
+                {
+                    DishId = 4,
+                    TypeId = 3,
+                    DishName = "Burger",
+                    ImageUrl = "https://foodish-api.herokuapp.com/images/burger/burger8.jpg",
+                    Description = "Beef, Lettuce, Tomato, Mayo"
                 });
             modelBuilder.Entity<SizeType>().HasData(
                 new SizeType

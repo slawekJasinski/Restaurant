@@ -2,72 +2,67 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RestaurantApp.Database;
+using RestaurantApp.DTO;
 using RestaurantApp.Model;
+using RestaurantApp.Repository;
 
 namespace RestaurantApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    [EnableCors("MyPolicy")]
     public class DishesController : ControllerBase
     {
-        private readonly RestaurantAppDbContext _context;
+        private IMapper _mapper;
 
-        public DishesController(RestaurantAppDbContext context)
+        private readonly IDishItemRepository _dishItemRepository;
+
+        public DishesController(IMapper mapper, IDishItemRepository dishItemRepository)
         {
-            _context = context;
+            _mapper = mapper;
+            _dishItemRepository = dishItemRepository;
         }
 
         // GET: api/Dishes
         [HttpGet]
-        public IEnumerable<Dish> GetDishes()
+        public ActionResult<List<DishDTO>> GetDishes()
         {
-            return _context.Dishes;
+            List<Dish> dishes = _dishItemRepository.GetDishes();
+            return _mapper.Map<List<DishDTO>>(dishes);
         }
 
         // GET: api/Dishes/5
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetDish([FromRoute] int id)
+        public ActionResult<List<DishDTO>> GetDish(int id)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            var dish = await _context.Dishes.FindAsync(id);
-
-            if (dish == null)
+            List<Dish> dishes = _dishItemRepository.GetById(id);
+            if(dishes is null)
             {
                 return NotFound();
             }
-
-            return Ok(dish);
+            return _mapper.Map<List<DishDTO>>(dishes);
         }
 
         // PUT: api/Dishes/5
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutDish([FromRoute] int id, [FromBody] Dish dish)
+        public IActionResult PutDish(int id, DishDTO dishDTO)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            if (id != dish.DishId)
+            if (id != dishDTO.DishId)
             {
                 return BadRequest();
             }
 
-            _context.Entry(dish).State = EntityState.Modified;
+            Dish dish = _mapper.Map<Dish>(dishDTO);
+            _dishItemRepository.Update(dish);
 
             try
             {
-                await _context.SaveChangesAsync();
+                _dishItemRepository.Save();
             }
             catch (DbUpdateConcurrencyException)
             {
@@ -86,43 +81,29 @@ namespace RestaurantApp.Controllers
 
         // POST: api/Dishes
         [HttpPost]
-        public async Task<IActionResult> PostDish([FromBody] Dish dish)
+        public ActionResult<DishDTO> PostDish(DishDTO dishDTO)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            _context.Dishes.Add(dish);
-            await _context.SaveChangesAsync();
-
-            return CreatedAtAction("GetDish", new { id = dish.DishId }, dish);
+            _dishItemRepository.Insert(_mapper.Map<Dish>(dishDTO));
+            _dishItemRepository.Save(); 
+            return CreatedAtAction("GetDish", new { id = dishDTO.DishId }, dishDTO);
         }
 
         // DELETE: api/Dishes/5
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteDish([FromRoute] int id)
+        public IActionResult DeleteDish(int id)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
-            var dish = await _context.Dishes.FindAsync(id);
-            if (dish == null)
+            if (!DishExists(id))
             {
                 return NotFound();
             }
-
-            _context.Dishes.Remove(dish);
-            await _context.SaveChangesAsync();
-
-            return Ok(dish);
+            _dishItemRepository.Delete(id);
+            _dishItemRepository.Save();
+            return NoContent();
         }
 
         private bool DishExists(int id)
         {
-            return _context.Dishes.Any(e => e.DishId == id);
+            return (_dishItemRepository.GetById(id) != null);
         }
     }
 }

@@ -24,5 +24,6 @@ namespace RestaurantApp.Model
         [MaxLength(255)]
         [Column("Description")]
         public string Description { get; set; }
+        public virtual List<DishSize> DishSizes { get; set; }
     }
 }

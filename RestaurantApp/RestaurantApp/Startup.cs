@@ -14,6 +14,9 @@ using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
 using RestaurantApp.Database;
 using Npgsql;
+using RestaurantApp.Repository;
+using AutoMapper;
+using RestaurantApp.Mapper;
 
 namespace RestaurantApp
 {
@@ -34,6 +37,10 @@ namespace RestaurantApp
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddDbContext<RestaurantAppDbContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            services.AddScoped<IDishItemRepository, DishItemRepository>();
+            services.AddScoped<IOrderRepository, OrderRepository>();
+            services.AddScoped<IPriceItemRepository, PriceItemRepository>();
+            services.AddAutoMapper(c => c.AddProfile<Automap>(), typeof(Startup));
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
