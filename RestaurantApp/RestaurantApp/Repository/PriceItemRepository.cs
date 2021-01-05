@@ -20,8 +20,10 @@ namespace RestaurantApp.Repository
         public List<DishSize> GetById(int id)
         {
             DateTime dToday = DateTime.Today;
-            return context.Products.Where(a => ((a.DishId == id) && (DateTime.Compare(a.DateTo, dToday)>0) && (DateTime.Compare(a.DateFrom, dToday) < 0))).ToList<DishSize>();
+            //return context.Products.Where(a => ((a.DishId == id) && (DateTime.Compare(a.DateTo, dToday)>0) && (DateTime.Compare(a.DateFrom, dToday) < 0))).ToList<DishSize>();
+            return context.Products.ToList<DishSize>();
         }
+        
 
         public void Insert(DishSize dishSize)
         {

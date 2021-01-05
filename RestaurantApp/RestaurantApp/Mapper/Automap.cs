@@ -19,7 +19,7 @@ namespace RestaurantApp.Mapper
                 .ForMember(d => d.ImageUrl, source => source.MapFrom(s=> s.ImageUrl))
                 .ForMember(d => d.Description, source => source.MapFrom(s => s.Description));
             CreateMap<Order, OrderDTO>();
-            CreateMap<DishSize, PriceItemDTO>
+            CreateMap<DishSize, PriceItemDTO>();
         }
     }
 }

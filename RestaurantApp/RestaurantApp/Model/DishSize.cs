@@ -22,8 +22,8 @@ namespace RestaurantApp.Model
         [Column("Price")]
         public double Price { get; set; }
         [Column("DateFrom")]
-        public DateTime DateFrom { get; set; }
+        public string DateFrom { get; set; }
         [Column("DateTo")]
-        public DateTime DateTo { get; set; }
+        public string DateTo { get; set; }
     }
 }

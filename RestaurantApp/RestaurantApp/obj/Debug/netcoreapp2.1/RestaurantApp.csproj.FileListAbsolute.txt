@@ -44,3 +44,17 @@ D:\Restaurant-main\Restaurant-main\RestaurantApp\RestaurantApp\obj\Debug\netcore
 D:\Restaurant-main\Restaurant-main\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.RazorTargetAssemblyInfo.cache
 D:\Restaurant-main\Restaurant-main\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.dll
 D:\Restaurant-main\Restaurant-main\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.pdb
+C:\Users\Sławuś\Desktop\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.csprojAssemblyReference.cache
+C:\Users\Sławuś\Desktop\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.csproj.CoreCompileInputs.cache
+C:\Users\Sławuś\Desktop\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.RazorAssemblyInfo.cache
+C:\Users\Sławuś\Desktop\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.RazorAssemblyInfo.cs
+C:\Users\Sławuś\Desktop\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.AssemblyInfoInputs.cache
+C:\Users\Sławuś\Desktop\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.AssemblyInfo.cs
+C:\Users\Sławuś\Desktop\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.dll
+C:\Users\Sławuś\Desktop\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.pdb
+C:\Users\Sławuś\Desktop\Restaurant\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\RestaurantApp.deps.json
+C:\Users\Sławuś\Desktop\Restaurant\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\RestaurantApp.runtimeconfig.json
+C:\Users\Sławuś\Desktop\Restaurant\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\RestaurantApp.runtimeconfig.dev.json
+C:\Users\Sławuś\Desktop\Restaurant\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\RestaurantApp.dll
+C:\Users\Sławuś\Desktop\Restaurant\RestaurantApp\RestaurantApp\bin\Debug\netcoreapp2.1\RestaurantApp.pdb
+C:\Users\Sławuś\Desktop\Restaurant\RestaurantApp\RestaurantApp\obj\Debug\netcoreapp2.1\RestaurantApp.RazorTargetAssemblyInfo.cache
