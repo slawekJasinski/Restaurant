@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RestaurantApp.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -12,5 +13,6 @@ namespace RestaurantApp.DTO
         public string DishName { get; set; }
         public string ImageUrl { get; set; }
         public string Description { get; set; }
+        public List<DishSize> DishSizes { get; set; }
     }
 }

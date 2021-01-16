@@ -7,10 +7,11 @@ namespace RestaurantApp.DTO
 {
     public class PriceItemDTO
     {
-        public int Id { get; set; }
-        public DateTime? Date { get; set; }
-        public string Title { get; set; }
-        public double Amount { get; set; }
-        public string Type { get; set; }
+        public int ProductId { get; set; }
+        public int DishId { get; set; }
+        public int SizeId { get; set; }
+        public double Price { get; set; }
+        public string DateFrom { get; set; }
+        public string DateTo { get; set; }
     }
 }

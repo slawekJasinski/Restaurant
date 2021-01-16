@@ -63,7 +63,7 @@ namespace RestaurantApp.Database
                 {
                     DishId = 2,
                     TypeId = 1,
-                    DishName = "Margarita 11111",
+                    DishName = "Margarita",
                     ImageUrl = "https://foodish-api.herokuapp.com/images/pizza/pizza60.jpg",
                     Description = "sos, ser"
                 });

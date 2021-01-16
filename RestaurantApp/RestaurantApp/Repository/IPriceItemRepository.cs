@@ -9,6 +9,7 @@ namespace RestaurantApp.Repository
 {
     public interface IPriceItemRepository
     {
+        List<DishSize> GetPriceItems();
         List<DishSize> GetById(int id);
         void Insert(DishSize dishSize);
         void Delete(int id);

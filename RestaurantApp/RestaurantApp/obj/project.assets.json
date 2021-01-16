@@ -13055,11 +13055,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sławuś\\Desktop\\Restaurant\\RestaurantApp\\RestaurantApp\\RestaurantApp.csproj",
+      "projectUniqueName": "C:\\Users\\Sławuś\\Desktop\\Restaurant\\Restaurant\\RestaurantApp\\RestaurantApp\\RestaurantApp.csproj",
       "projectName": "RestaurantApp",
-      "projectPath": "C:\\Users\\Sławuś\\Desktop\\Restaurant\\RestaurantApp\\RestaurantApp\\RestaurantApp.csproj",
+      "projectPath": "C:\\Users\\Sławuś\\Desktop\\Restaurant\\Restaurant\\RestaurantApp\\RestaurantApp\\RestaurantApp.csproj",
       "packagesPath": "C:\\Users\\Sławuś\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sławuś\\Desktop\\Restaurant\\RestaurantApp\\RestaurantApp\\obj\\",
+      "outputPath": "C:\\Users\\Sławuś\\Desktop\\Restaurant\\Restaurant\\RestaurantApp\\RestaurantApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

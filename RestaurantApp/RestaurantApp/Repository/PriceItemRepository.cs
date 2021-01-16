@@ -45,5 +45,10 @@ namespace RestaurantApp.Repository
         {
             context.SaveChanges();
         }
+
+        public List<DishSize> GetPriceItems()
+        {
+            return context.Products.ToList<DishSize>();
+        }
     }
 }

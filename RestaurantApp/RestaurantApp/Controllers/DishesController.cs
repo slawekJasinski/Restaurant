@@ -38,6 +38,7 @@ namespace RestaurantApp.Controllers
 
         // GET: api/Dishes/5
         [HttpGet("{id}")]
+        //[Route("GetDishes")]
         public ActionResult<List<DishDTO>> GetDish(int id)
         {
             List<Dish> dishes = _dishItemRepository.GetById(id);
@@ -45,7 +46,23 @@ namespace RestaurantApp.Controllers
             {
                 return NotFound();
             }
-            return _mapper.Map<List<DishDTO>>(dishes);
+            return _mapper.Map<List<DishDTO>>(dishes).Select(e => new DishDTO
+            {
+                DishId = e.DishId,
+                DishTypeId = e.DishTypeId,
+                DishName = e.DishName,
+                ImageUrl = e.ImageUrl,
+                Description = e.Description,
+                DishSizes = e.DishSizes.Select(d => new DishSize
+                {
+                    DishId = d.DishId,
+                    Price = d.Price,
+                    DateFrom = d.DateFrom,
+                    DateTo = d.DateTo,
+                    ProductId = d.ProductId,
+                    SizeId = d.SizeId
+                }).ToList()
+            }).ToList();
         }
 
         // PUT: api/Dishes/5
@@ -106,4 +123,5 @@ namespace RestaurantApp.Controllers
             return (_dishItemRepository.GetById(id) != null);
         }
     }
+    
 }

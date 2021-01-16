@@ -19,17 +19,3 @@ namespace RestaurantApp.Repository
     }
 }
 
-
-/*
-  using System.Collections.Generic;    
-  using WebApiIntroductionApp.Models;
-    public interface IBudgetItemRepository    
-    {        
-    List<BudgetItem> GetBudgetItems();
-        BudgetItem GetById(int id);
-        void Insert(BudgetItem budgetItem);
-        void Delete(int id);
-        void Update(BudgetItem budgetItem);
-        void Save();    
-        }
-     */

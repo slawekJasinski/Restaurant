@@ -7,10 +7,9 @@ namespace RestaurantApp.DTO
 {
     public class OrderDTO
     {
-        public int Id { get; set; }
-        public DateTime? Date { get; set; }
-        public string Title { get; set; }
-        public double Amount { get; set; }
-        public string Type { get; set; }
+        public int OrderId { get; set; }
+        public int CustomerId { get; set; }
+        public int StatusId { get; set; }
+        public string Notes { get; set; }
     }
 }

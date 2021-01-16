@@ -103,6 +103,8 @@ namespace RestaurantApp.Migrations
 
                     b.HasKey("ProductId");
 
+                    b.HasIndex("DishId");
+
                     b.ToTable("Products");
 
                     b.HasData(
@@ -234,6 +236,14 @@ namespace RestaurantApp.Migrations
                         new { StatusId = 4, StatusName = "Dostarczone" },
                         new { StatusId = 5, StatusName = "Anulowane" }
                     );
+                });
+
+            modelBuilder.Entity("RestaurantApp.Model.DishSize", b =>
+                {
+                    b.HasOne("RestaurantApp.Model.Dish")
+                        .WithMany("DishSizes")
+                        .HasForeignKey("DishId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }
